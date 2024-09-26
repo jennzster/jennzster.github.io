@@ -38,7 +38,7 @@ body {
 
 .logo {
   filter: grayscale(1) brightness(199);
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .navi {
@@ -92,6 +92,7 @@ a[name] {
 .panel {
   height:100vh;
   text-align:center;
+  padding: 0 15px;
 }
 .panel h1 {
   text-align: left;
@@ -162,6 +163,29 @@ a[name] {
 .panel.contact p a:hover {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
+}
+
+@media (max-width: 768px) {
+.thumbs img {
+  width: 18%;
+}
+}
+@media (max-width: 767px) {
+.header_inner {
+  display: block;
+}
+.logo {
+  text-align: center;
+}
+.panel {
+  padding: 0 50px;
+}
+a[name] {
+  top: -175px;
+}
+.thumbs img {
+  width: 45%;
+}
 }
 </style>
 </head>
